@@ -1,3 +1,21 @@
+
+
+.wd-main-layout {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.wd-flex-navbar a {
+    text-decoration: none;
+    font-size: small;
+}
+
+html,
+body {
+    height: 100%;
+}
+
 .wd-flex-navbar {
     width: 77px;
     background-color: black;
@@ -18,22 +36,6 @@
     background-color: black;
     height: 40px;
     width: 50px;
-}
-
-.wd-main-layout {
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-}
-
-.wd-flex-navbar a {
-    text-decoration: none;
-    font-size: small;
-}
-
-html,
-body {
-    height: 100%;
 }
 
 .wd-bg-white {

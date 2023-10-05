@@ -1,3 +1,9 @@
+
+html,
+body {
+    height: 100%;
+}
+
 .wd-flex-navbar {
     width: 77px;
     background-color: black;
@@ -12,6 +18,23 @@
 .wd-flex-navbar li {
     list-style: none;
     text-align: center;
+}
+
+
+.wd-bg-white {
+    background-color: white;
+}
+
+.wd-bg-grey {
+    color: grey;
+}
+
+.wd-bg-red {
+    color: red;
+}
+
+.wd-fg-red {
+    color: red;
 }
 
 .wd-flex-navbar li img {
@@ -31,27 +54,6 @@
     font-size: small;
 }
 
-html,
-body {
-    height: 100%;
-}
-
-
-.wd-bg-white {
-    background-color: white;
-}
-
-.wd-bg-grey {
-    color: grey;
-}
-
-.wd-bg-red {
-    color: red;
-}
-
-.wd-fg-red {
-    color: red;
-}
 
 .wd-fg-white {
     color: white;

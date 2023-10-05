@@ -1,24 +1,4 @@
-.wd-flex-navbar {
-    width: 85px;
-    background-color: black;
-    height: 100%;
-    position: fixed;
-}
 
-.wd-flex-navbar ul {
-    padding-left: 0px;
-}
-
-.wd-flex-navbar li {
-    list-style: none;
-    text-align: center;
-}
-
-.wd-flex-navbar li img {
-    background-color: black;
-    height:40px; 
-    width:50px;
-}
 
 .wd-main-layout {
     display: flex;
@@ -34,6 +14,22 @@
 html,
 body {
     height: 100%;
+}
+
+.wd-flex-navbar {
+    width: 85px;
+    background-color: black;
+    height: 100%;
+    position: fixed;
+}
+
+.wd-flex-navbar ul {
+    padding-left: 0px;
+}
+
+.wd-flex-navbar li {
+    list-style: none;
+    text-align: center;
 }
 
 
@@ -112,4 +108,10 @@ body {
 
 .card .card-body .card-title {
     color: #0066ff;
+}
+
+.wd-flex-navbar li img {
+    background-color: black;
+    height:40px; 
+    width:50px;
 }

@@ -1,21 +1,4 @@
-.wd-main-layout {
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-}
 
-.wd-flex-account {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    position: relative;
-    left: 75px;
-}
-
-.wd-flex-account-options {
-    display: flex;
-    flex-direction: row;
-}
 
 .wd-account-profile {
     /* display: flex;
@@ -35,20 +18,26 @@
     position: fixed;
 }
 
-.wd-flex-navbar ul {
-    padding-left: 0px;
+.wd-main-layout {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
 }
 
-.wd-flex-navbar li {
-    list-style: none;
-    text-align: center;
+.wd-flex-account {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    position: relative;
+    left: 75px;
 }
 
-.wd-flex-navbar li img {
-    background-color: black;
-    height: 40px;
-    width: 50px;
+.wd-flex-account-options {
+    display: flex;
+    flex-direction: row;
 }
+
+
 
 .wd-flex-navbar a {
     text-decoration: none;
@@ -103,23 +92,22 @@ body {
     padding-left: 0px;
 }
 
-.wd-account-navbar li {
+.wd-flex-navbar ul {
+    padding-left: 0px;
+}
+
+.wd-flex-navbar li {
     list-style: none;
-    margin-bottom: 15px;
+    text-align: center;
 }
 
-.wd-account-navbar a {
-    text-decoration: none;
-    padding-left: 8px;
+.wd-flex-navbar li img {
+    background-color: black;
+    height: 40px;
+    width: 50px;
 }
 
-.wd-account-active {
-    border-left: 2px solid black;
-}
 
-.wd-text-larger {
-    font-size: larger;
-}
 
 .wd-account-profile-edit-button {
     position: relative;
@@ -144,4 +132,22 @@ body {
 
 .wd-no-decoration {
     text-decoration: none;
+}
+
+.wd-account-navbar li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.wd-account-navbar a {
+    text-decoration: none;
+    padding-left: 8px;
+}
+
+.wd-account-active {
+    border-left: 2px solid black;
+}
+
+.wd-text-larger {
+    font-size: larger;
 }

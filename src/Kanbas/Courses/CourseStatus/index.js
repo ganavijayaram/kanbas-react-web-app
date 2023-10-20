@@ -39,17 +39,17 @@ function CourseStatus() {
         <ul>
           <li>
             <a class="course-link" href="#">
-              Grade A1 - ENV + HTML
+              Grade CS5610.11111.111111 Sep 11 at 11:45am
             </a>
           </li>
           <li>
             <a class="course-link" href="#">
-              Grade A2 - CSS + BOOTSRAP
+              Grade CS5610.22222.222222 Sep 12 att 11:05am
             </a>
           </li>
           <li>
             <a class="course-link" href="#">
-              Grade A3 - REACT
+              Grade CS5610.33333.333333 Sep 21 att 21:45pm
             </a>
           </li>
         </ul>

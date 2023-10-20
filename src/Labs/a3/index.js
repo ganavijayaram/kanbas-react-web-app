@@ -1,4 +1,4 @@
-import JavaScript from "./Javascript";
+import JavaScript from "./JavaScript";
 import PathParameters from "./PathParameters";
 import DynamicStyling from "./DynamicStyling";
 import Classes from "./Classes";

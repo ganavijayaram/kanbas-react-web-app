@@ -1,7 +1,7 @@
 import db from "../../Database";
 import { useParams } from "react-router-dom";
 import "./index.css";
-import { FaGear, FaFilter } from "react-icons/fa6";
+import { FaGear } from 'react-icons/fa6' 
 
 function Grades() {
   const { courseId } = useParams();
@@ -20,7 +20,7 @@ function Grades() {
           <button className="col btn btn-light me-2">
             <FaGear />
           </button>
-        </div>
+        </div> 
       </div>
 
       <div className="wd-grades-searchbar">
@@ -58,18 +58,15 @@ function Grades() {
           </div>
         </form>
       </div>
-      <button className="btn btn-light mt-2 mb-3">
-        <FaFilter className="me-2 outline-icon" /> Apply Filters
-      </button>
 
       <div className="table-responsive mt-3">
         <table className="table table-striped table-bordered">
           <thead>
             <tr>
-              <th>Student Name</th>
-              {assignments.map((assignment) => (
-                <th>{assignment.title}</th>
-              ))}
+            <th>Student Name</th>
+            {assignments.map((assignment) => (
+              <th>{assignment.title}</th>
+            ))}
             </tr>
           </thead>
 

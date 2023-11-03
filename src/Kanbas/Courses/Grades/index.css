@@ -1,15 +1,12 @@
 .wd-grades-searchbar {
-  clear: both;
+    clear:both;
 }
 
-.table {
-  border-width: unset;
-  text-align: center;
+.table{
+    border-width: unset;
+    text-align: center;
 }
 
 #wd-student-name {
-  color: red;
-}
-
-.table > :not(caption) > * > * {
+    color:red;
 }

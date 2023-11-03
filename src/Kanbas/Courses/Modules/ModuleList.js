@@ -72,7 +72,7 @@ function ModuleList() {
                 Delete
               </button>
               <button
-                className="btn btn-success"
+                className="btn btn-warning"
                 onClick={() => dispatch(setModule(module))}
               >
                 Edit

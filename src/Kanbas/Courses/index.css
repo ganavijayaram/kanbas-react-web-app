@@ -1,6 +1,5 @@
 .wd-breadcrumb {
   --bs-breadcrumb-divider: ">";
-  /* aria-label: "breadcrumb"; */
 }
 
 .wd-breadcrumb-course {
@@ -8,5 +7,5 @@
 }
 
 .wd-course-screen {
-    width:100%;
+  width: 100%;
 }

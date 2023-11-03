@@ -87,7 +87,6 @@ function ModuleList() {
                   <li key={index} className="list-group-item">
                     <LuGripVertical />
                     {lesson.name}
-                    {/* <p>{lesson.description}</p> */}
                   </li>
                 ))}
               </ul>

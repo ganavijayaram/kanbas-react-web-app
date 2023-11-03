@@ -11,10 +11,9 @@ const todosSlice = createSlice({
   initialState,
   reducers: {
     addTodo: (state, action) => {
-        console.log(action.payload)
       const newTodos = [
         ...state.todos,
-        {...action.payload, id: new Date().getTime().toString() },
+        { ...action.payload, id: new Date().getTime().toString() },
       ];
       state.todos = newTodos;
       state.todo = { title: "" };

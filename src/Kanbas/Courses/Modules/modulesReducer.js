@@ -3,7 +3,7 @@ import db from "../../Database";
 
 const initialState = {
   modules: db.modules,
-  module: { name: "Module Name", description: "Module Description" },
+  module: { name: "New Module", description: "New Description" },
 };
 
 const modulesSlice = createSlice({

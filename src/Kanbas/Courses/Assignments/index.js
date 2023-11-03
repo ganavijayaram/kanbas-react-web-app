@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
-import db from "../../Database";
 import { AiOutlinePlus, AiFillCheckCircle } from "react-icons/ai";
 import { HiOutlineEllipsisVertical } from "react-icons/hi2";
 import { TfiPencilAlt } from "react-icons/tfi";
@@ -76,12 +75,11 @@ function Assignments() {
                 class="btn btn-danger me-1"
                 onClick={(e) => {
                   e.preventDefault();
-                  dispatch(deleteAssignment(assignment._id))
+                  dispatch(deleteAssignment(assignment._id));
                 }}
               >
                 Delete
               </button>
-            
 
               <AiFillCheckCircle color="green" />
               <HiOutlineEllipsisVertical />
